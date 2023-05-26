@@ -1,0 +1,53 @@
+.dietplan{
+    background-image: url("../../images/dietplanhello2.jpg");
+    backgroundSize: 'cover';
+    backgroundRepeat: 'no-repeat';
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    opacity: 3.0;
+}
+
+.text{
+    position: center;
+    margin: 20%;
+    padding: 10%;
+    padding-top: 0;
+    padding-bottom: 0%;
+    color: #ad8282;
+    background-color: #FAD1F0;
+    border-radius: 30px;
+
+
+}
+.buttondiv{
+    align-content: center;
+    position: center;
+    padding: 40%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+
+}
+
+
+.testbtn {
+    border: none;
+    outline: none;
+    height: 50px;
+    background-color: #FFEEFB;
+    color: black;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 200px;
+    align-content: center;
+    position: center;
+}
+
+.testbtn:hover {
+    background-color: #FAD1F0;
+    border: none;
+    color: black;
+}

@@ -1,0 +1,54 @@
+.row {
+  background-color: white;
+}
+
+.loginbtn {
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 55%;
+  background-color: #FAD1F0;
+  color: black;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.loginbtn:hover {
+  background-color: #FFEEFB;
+  border: none;
+  color: black;
+}
+
+
+input {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 0.5px solid black !important;
+  border-radius: none !important;
+}
+
+
+.form-control {
+  border-radius: 0px !important;
+}
+
+.form-control:focus {
+        border-bottom: 2px solid black !important;
+        box-shadow: 0 0 0 0 !important;
+        font-weight: bold;
+} 
+
+
+.customlogin {
+  margin-top: 100px;
+}
+
+.loginlink {
+  color: #fb6dd7;
+}
+
+.loginlink:hover {
+  font-style: bold;
+  text-decoration: none;
+}

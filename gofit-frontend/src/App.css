@@ -1,0 +1,334 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.btn {
+  border: none !important; 
+  outline: none !important;
+  height: 50px;
+  width: 50%;
+  background-color: #FAD1F0 !important;
+  color: black !important;
+  border-radius: 20px !important;
+  font-weight: bold !important;
+}
+
+.btn:hover {
+  background-color: #FFEEFB !important;
+  border: none !important;
+  color: black !important;
+  
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+
+}
+
+.btnGreen {
+  border: none !important; 
+  outline: none !important;
+  height: 50px;
+  width: 50%;
+  background-color: #63ea6889 !important;
+  color: black !important;
+  border-radius: 20px !important;
+  font-weight: bold !important;
+}
+
+.btnGreen:hover {
+  background-color: #c4fbbf !important;
+  border: none !important;
+  color: black !important;
+}
+
+.center {
+  justify-content: center !important;
+  align-items: 'center' !important;
+}
+
+.wrapper {
+  margin: 30px auto auto;
+  justify-content: center;
+  width: 40%;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 11px 11px 11px 11px rgb(246, 246, 246);
+  background-color: white;
+
+}
+
+.bgPink {
+    background-color: #FAD1F0;
+
+}
+
+.customImg {
+  height: 120px;
+  width: 180px;
+  border-radius: 20px;
+
+}
+
+.exerciseTableRow {
+  /* background-color: #b3abf3ce !important; */
+  border-radius: 20px;
+  border-collapse: separate;
+  border-spacing: 0 100px !important;
+}
+
+.exerciseTableRow:hover {
+  /* background-color: #ccc8f599 !important; */
+  cursor: pointer;
+}
+
+.separateTd {
+    border-collapse: separate !important;
+  border-spacing: 100px 0 !important;
+}
+
+.exerciseTableRow2 {
+  /* background-color: #63ea6889 !important; */
+  border-radius: 20px;
+  border-collapse: collapse;
+  border-spacing: 0 100px !important;
+}
+
+.exerciseTableRow2:hover {
+  /* background-color: #c4fbbf !important; */
+  border-radius: 20px;
+  border-collapse: collapse;
+  border-spacing: 0 100px !important;
+  cursor: pointer;
+}
+
+.bigContainer {
+  margin-top: 50px;
+  /* background-color: #e1dcffce !important; */
+  border-radius: 20px;
+  box-sizing: border-box !important;
+  width: 80% !important;
+}
+
+.purple1 {
+    background-color: #e1dcff00 !important;
+}
+
+.exerciseTableRowHead {
+  /* background-color: #b3abf3ce !important; */
+  border-radius: 20px;
+  border-collapse: separate;
+  border-spacing: 0 100px !important;
+}
+
+.exerciseTableRowHead2 {
+  /* background-color: #63ea6889 !important; */
+  border-radius: 20px;
+  border-collapse: separate;
+  border-spacing: 0 100px !important;
+}
+
+.bgexercise {
+    background-color: rgb(216, 237, 255) !important;
+}
+
+.btnExercise {
+  width: 100%;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.customCard {
+  /* width: 20rem; */
+  height: 20rem;
+  border-radius: 20px !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.customCard:hover {
+  /* background-color: #FAD1F0 !important; */
+  cursor: pointer;
+}
+
+
+.cardContainer {
+    /* margin-top: 100px; */
+    box-sizing: border-box;
+    align-items: center !important;
+    height: 80vh !important;
+}
+
+.primaryColor {
+  background-color: #FAD1F0 !important;
+}
+
+.primaryColorNoHover {
+  background-color: #FAD1F0 !important;
+}
+
+.primaryColor:hover {
+  background-color: #FFEEFB !important;
+}
+
+.secondaryColor{
+  background-color: #FFEEFB !important;
+}
+
+.secondaryColor:hover{
+  background-color: #FAD1F0 !important;
+}
+
+.secondaryColorNoHover{
+  background-color: #FFEEFB !important;
+}
+
+.bgYellow {
+  background-color: #f2fad1 !important;
+}
+
+.bgYellow2 {
+  background-color: #f2fad1 !important;
+}
+
+.bgYellow:hover {
+  background-color: #e4f797c2 !important;
+}
+
+.bgBlueUser {
+  background-color: rgb(160, 209, 253) !important;
+}
+
+.bgBlueUser2 {
+  background-color: rgb(160, 209, 253) !important;
+}
+
+.bgBlueUser:hover {
+  background-color: rgba(195, 227, 255, 0.849) !important;
+}
+
+.bgBlue {
+  background-color: rgb(216, 237, 255) !important;
+}
+
+.bgBlue2 {
+  background-color: rgb(216, 237, 255) !important;
+}
+
+.bgBlue:hover {
+  background-color: rgba(162, 211, 254, 0.674) !important;
+}
+
+.bgGreen {
+  background-color: #d1fae1 !important;
+}
+
+.bgGreen2 {
+  background-color: #d1fae1 !important;
+}
+
+.bgGreen:hover {
+  background-color: #97f5bbd1 !important;
+}
+
+.bgOrange {
+  background-color: #faddd1 !important;
+}
+
+.bgOrange:hover {
+  background-color: #fad2b3d8 !important;
+}
+
+.bgOrange2 {
+    background-color: #faddd1 !important;
+}
+
+.bgOrangeRecepie {
+  background-color: rgb(248, 210, 139) !important;
+}
+
+.bgOrangeRecepie2 {
+  background-color: rgb(248, 210, 139) !important;
+}
+.bgOrangeRecepie:hover {
+  background-color: rgba(253, 231, 190, 0.79) !important;
+}
+
+.bgPurple {
+  background-color: #b3abf3ce !important;
+}
+
+.bgPurple:hover {
+  background-color: #ccc8f599 !important;
+}
+
+.Link {
+  text-decoration: none !important;
+}
+
+.cardAsLink {
+  color:black !important;
+  text-decoration: none !important;
+}
+
+.cardAsLink:hover {
+  text-decoration: none !important;
+}
+
+.customFooter {
+  font-size: 14px;
+  background-color: #FFEEFB;
+}
+
+.registerButton {
+  border-radius: 50px !important;
+  width: 150px !important;
+}
+
+.registerNoHover {
+  color: black !important;
+}
+
+
+.cardsEdit:hover {
+  background-color: #FFEEFB !important;
+  cursor: pointer !important;
+}

@@ -1,0 +1,112 @@
+.trainings{
+    background-color: lightgrey;
+    border-radius: 5px;
+    position: center;
+    margin: 10px;
+    width: 100%;
+
+}
+
+.pics{
+    position: center;
+    margin: 5px;
+    align-content: center;
+    display: flex;
+}
+
+.textTraining{
+    position: center;
+    align-content: center;
+    text-align: center;
+}
+
+.buttondiv{
+    align-content: center;
+    position: center;
+    padding: 40%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+
+}
+
+
+.videobtn {
+    border: none;
+    outline: none;
+    height: 50px;
+    background-color: #FFEEFB;
+    color: black;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 200px;
+    align-content: center;
+    position: center;
+}
+
+.videobtn:hover {
+    background-color: #FAD1F0;
+    border: none;
+    color: black;
+}
+
+.textDietPlan {
+    position: center;
+    align-content: center;
+    text-align: center;
+}
+
+.dietplans{
+    background-color: lightyellow;
+    border-radius: 5px;
+    position: center;
+    margin: 10px;
+    width: 100%;
+
+}
+
+.schedule{
+    background-color: lightblue;
+    border-radius: 5px;
+    position: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.schedulebtn {
+    border: none;
+    outline: none;
+    height: 50px;
+    background-color: #FFEEFB;
+    color: black;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 200px;
+    align-content: center;
+    position: center;
+}
+
+.schedulebtn:hover {
+    background-color: #FAD1F0;
+    border: none;
+    color: black;
+}
+
+.mapbtn {
+    border: none;
+    outline: none;
+    height: 50px;
+    background-color: #FFEEFB;
+    color: black;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 200px;
+    align-content: center;
+    position: center;
+}
+
+.mapbtn:hover {
+    background-color: #FAD1F0;
+    border: none;
+    color: black;
+}
+

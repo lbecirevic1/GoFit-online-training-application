@@ -1,0 +1,56 @@
+.breakfast{
+    background-color: lightgrey;
+    border-radius: 5px;
+    position: center;
+    margin: 10px;
+    width: 100%;
+
+}
+
+.pics{
+    position: center;
+    margin: 5px;
+    align-content: center;
+    display: flex;
+}
+
+.textBreakfast{
+    position: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+.textRecepata {
+    text-align: left;
+}
+
+.lunch{
+    background-color: lightyellow;
+    border-radius: 5px;
+    position: center;
+    margin: 10px;
+    width: 100%;
+
+}
+
+.dinner{
+    position: center;
+    background-color: lightblue;
+    border-radius: 5px;
+    position: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.textDinner{
+    position: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+
+

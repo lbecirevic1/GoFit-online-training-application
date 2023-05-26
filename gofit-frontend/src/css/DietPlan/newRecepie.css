@@ -1,0 +1,23 @@
+.addRecepie {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.submitbtn {
+    border: none;
+    outline: none;
+    height: 50px;
+    background-color: #FFEEFB;
+    color: black;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 200px;
+    align-content: center;
+    position: center;
+}
+
+.submitbtn:hover {
+    background-color: #FAD1F0;
+    border: none;
+    color: black;
+}

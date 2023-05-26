@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Training" />
+        <module name="SystemEvent" />
+        <module name="Schedule" />
+        <module name="spring-cloud-config-server" />
+        <module name="api-gateway" />
+        <module name="user-service" />
+        <module name="eureka-server" />
+        <module name="DietPlan" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.5" />
+      <module name="DietPlan" target="1.5" />
+      <module name="eureka-server" target="1.5" />
+      <module name="Schedule" target="1.5" />
+      <module name="spring-cloud-config-server" target="1.5" />
+      <module name="SystemEvent" target="1.5" />
+      <module name="Training" target="1.5" />
+      <module name="user-service" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DietPlan" options="-parameters" />
+      <module name="Schedule" options="-parameters" />
+      <module name="SystemEvent" options="-parameters" />
+      <module name="Training" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="spring-cloud-config-server" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

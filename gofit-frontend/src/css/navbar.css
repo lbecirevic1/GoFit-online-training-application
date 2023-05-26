@@ -1,0 +1,23 @@
+.navbar-class {
+  background-color: #FAD1F0;
+  font-size: 19px;
+  padding: 0%;
+}
+
+#gofit-link {
+  color: black;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.navbar{
+  padding: 0.5px !important;
+}
+
+a {
+  color: rgba(32, 30, 30, 0.815) !important;
+}
+
+a:hover {
+  color: black !important;
+}

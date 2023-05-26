@@ -1,0 +1,35 @@
+:root {
+  --overlay: rgba(208, 200, 200, 0.367);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fc .fc-highlight {
+  background-color: rgba(250, 209, 240, 0.25em) !important;
+}
+
+.fc-button {
+  border-color: #d4c1cf !important;
+  background-color: #FAD1F0 !important;
+
+}
+
+.fc-daygrid-event-dot {
+  border-color: black !important;
+}
+
+.fc-view-harness a{
+    color: black !important;
+}
+
+.fc-h-event{
+  border: 1px solid #FAD1F0 !important;
+  background-color: #FAD1F0 !important;
+}
+
+fc-daygrid-event fc-daygrid-block-event fc-h-event fc-event fc-event-start fc-event-end {
+  color: black !important;
+}

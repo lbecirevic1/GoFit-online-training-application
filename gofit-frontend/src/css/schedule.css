@@ -1,0 +1,51 @@
+.schedule2{
+    background-image: url("../images/schedulehello.jpg");
+    backgroundSize: 'cover';
+    backgroundRepeat: 'no-repeat';
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    opacity: 3.0;
+}
+
+.textSchedule2{
+    text-align: center;
+    position: center;
+    margin-block: 15%;
+    margin-inline: 10%;
+    padding-top: 0;
+    padding-bottom: 0%;
+    color: white;
+}
+
+.buttondiv{
+    align-content: center;
+    position: center;
+   
+    padding-top: 0%;
+    padding-bottom: 0%;
+
+}
+
+
+.calendarbtn {
+    border: none;
+    outline: none;
+    height: 50px;
+    background-color: #FFEEFB;
+    color: black;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 200px;
+    align-content: center;
+    position: center;
+}
+
+.calendarbtn:hover {
+    background-color: #FAD1F0;
+    border: none;
+    color: black;
+}

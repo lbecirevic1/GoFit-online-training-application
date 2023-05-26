@@ -1,0 +1,94 @@
+.row {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+.gofitbtn {
+  border: none;
+  outline: none;
+  height: 50px;
+  background-color: #FAD1F0;
+  color: black;
+  border-radius: 30px;
+  font-weight: bold;
+  width: 100px;
+}
+
+.gofitbtn:hover {
+  background-color: #FFEEFB;
+  border: none;
+  color: black;
+}
+
+img {
+  width: 90%;
+  height: auto;
+  border-radius: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.tocenter {
+  margin-top: 20px;
+}
+
+.custom {
+  margin-top: 60px;
+}
+
+.secondrow {
+  margin-top: 100px;
+}
+
+svg.top {
+  display: block;
+}
+
+.backgroundcolor {
+  background-color: #FAD1F0;
+}
+
+.custom2 {
+  padding-bottom: 50px;
+}
+
+.homeText {
+  font-size: 40px !important;
+}
+
+.container {
+  box-sizing: border-box;
+}
+
+.titleText {
+  font-size: 60px;
+}
+
+.home {
+  background-color: var(--overlay);
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.home:before {
+  content: '';
+  background: url(../images/Group-2-1.png) no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.homeContent {
+  color: black;
+}
+
